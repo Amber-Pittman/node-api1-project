@@ -39,7 +39,6 @@ server.get("/api/users", (req, res) => {
             errorMessage: "The users information could not be retrieved."
         })
     }
-    
 })
 
 server.get("/api/users/:id", (req, res) => {
